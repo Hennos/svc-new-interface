@@ -1,0 +1,19 @@
+.title {
+    font-family: Arial, serif;
+}
+
+.title_italic {
+    font-style: italic;
+}
+
+.title_bold {
+    font-weight: bold;
+}
+
+.title_size_16px {
+    font-size: 16px;
+}
+
+.title_size_20px {
+    font-size: 20px;
+}

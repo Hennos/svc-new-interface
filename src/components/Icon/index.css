@@ -1,0 +1,9 @@
+.icon {
+    height: 25px;
+    width: 25px;
+}
+
+.icon_rounded {
+    border-width: 1px;
+    border-radius: 100%;
+}

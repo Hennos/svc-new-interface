@@ -1,0 +1,16 @@
+.navigation {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.navigation_underlined {
+    border-bottom: 1px solid #3399CC;
+}
+.navigation__title {
+    margin-left: 10px;
+    margin-right: auto;
+}
+.navigation__menu {
+    margin-left: 10px;
+}
