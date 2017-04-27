@@ -1,0 +1,12 @@
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls__button {
+    flex-grow: 1;
+}
+
+.controls__button_lined_right {
+    border-right: 2px solid white;
+}

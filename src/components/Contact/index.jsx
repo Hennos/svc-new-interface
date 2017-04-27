@@ -9,7 +9,7 @@ import Image from '../Image';
 import Name from '../Name';
 import About from '../About';
 
-function Contact({className, data}) {
+function Contact({className, data, focused}) {
   return (
     <div className={cn("contact", {[className]: !!className})}>
       <Image className="image_rounded contact__avatar" src={data.image || noneAvatar} />

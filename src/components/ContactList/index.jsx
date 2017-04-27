@@ -3,11 +3,17 @@ import cn from 'classnames';
 
 import './index.css';
 
+import addContactIcon from './content/contact.png';
+import addGroupIcon from './content/group.png';
+
 import annaAvatar from './content/anna.png';
 import maksimAvatar from './content/maksim.png';
 
 import SearchField from '../SearchField';
-import Contact from '../Contact';
+import Contacts from '../Contacts';
+import Controls from '../Controls';
+import Button from '../Button';
+import Icon from '../Icon';
 
 const contacts = [{
   id: 1,
@@ -70,20 +76,36 @@ const contacts = [{
 }];
 
 function ContactList({className}) {
+  const ContactListButton = ({className, icon, title}) => (
+    <Button
+      className={cn("button_size_small button_theme_blue", {[className]: !!className})}
+    >
+      <Icon className="icon_size_20 button__icon" src={icon} />
+      {title}
+    </Button>
+  );
+
   return (
     <aside className={cn("contact-list", {[className]: !!className})}>
       <SearchField
         className="search-field_theme_blue search-field_font-size_10px contact-list__search-field"
       />
-      {contacts.map(({id, ...contact}) => {
-        return (
-          <Contact
-            key={id}
-            className="contact-list__contact contact-list__contact_underlined"
-            data={contact}
-          />
-        )
-      })}
+      <Contacts
+        className="contact-list__contacts"
+        contacts={contacts}
+      />
+      <Controls className="contact-list__controls">
+        <ContactListButton
+          className="controls__button controls__button_lined_right"
+          icon={addContactIcon}
+          title="Добавить контакт"
+        />
+        <ContactListButton
+          className="controls__button"
+          icon={addGroupIcon}
+          title="Группа"
+        />
+      </Controls>
     </aside>
   )
 }

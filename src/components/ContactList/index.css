@@ -1,4 +1,7 @@
 .contact-list {
+    display: grid;
+    grid-template-rows: 40px 1fr 40px;
+    grid-template-areas: "search" "contacts" "buttons";
     font-family: "Myriad Pro", Arial, serif;
 }
 
@@ -7,15 +10,13 @@
 }
 
 .contact-list__search-field {
-    margin-bottom: 8px;
+    grid-area: search;
 }
 
-.contact-list__contact {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 5px 10px;
+.contact-list__contacts {
+    grid-area: contacts;
 }
 
-.contact-list__contact_underlined {
-    border-bottom: 1px solid #CCCCCC;
+.contact-list__controls {
+    grid-area: buttons;
 }

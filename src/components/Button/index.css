@@ -1,0 +1,18 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_theme_blue {
+    color: white;
+    background-color: #3399CC;
+}
+
+.button_size_small {
+    font-size: 10px;
+}
+
+.button__icon {
+    margin-right: 8px;
+}
