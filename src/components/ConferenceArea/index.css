@@ -1,12 +1,4 @@
 .conference-area {
-    width: 100vw;
-}
-
-@supports (display: grid) {
-    .conference-area {
-        display: grid;
-        grid-template-columns: 350px calc(100vw - 350px);
-    }
 }
 
 .conference-area__contact-list {

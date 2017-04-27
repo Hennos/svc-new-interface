@@ -3,9 +3,12 @@ import cn from 'classnames';
 
 import './index.css';
 
-function Input({className}) {
+function Input({className, placeholder}) {
   return (
-    <input className={cn("input", {[className]: !!className})} />
+    <input
+      className={cn("input", {[className]: !!className})}
+      placeholder={placeholder}
+    />
   )
 }
 

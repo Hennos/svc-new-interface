@@ -1,0 +1,20 @@
+.App {
+    display: grid;
+    grid-template-columns: minmax(250px, 1fr) 4fr;
+    grid-template-rows: 50px calc(100vh - 50px);
+    grid-template-areas:
+            "nav nav nav nav"
+            "sidebar section section section";
+}
+
+.App__navigation {
+    grid-area: nav;
+}
+
+.App__contact-list {
+    grid-area: sidebar;
+}
+
+.App__conference-area {
+    grid-area: section;
+}

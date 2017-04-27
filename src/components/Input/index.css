@@ -9,6 +9,10 @@
     background-color: #3399CC;
 }
 
+.input_theme_blue::placeholder {
+    color: white;
+}
+
 .input_theme_blue:focus {
     border: none;
     outline: none;
