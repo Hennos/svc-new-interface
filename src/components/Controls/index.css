@@ -1,10 +1,14 @@
 .controls {
     display: flex;
-    justify-content: space-between;
 }
 
 .controls__button {
     flex-grow: 1;
+}
+
+.controls__button_fat {
+    margin-right: 4px;
+    margin-left: 4px;
 }
 
 .controls__button_lined_right {

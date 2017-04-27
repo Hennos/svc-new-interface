@@ -14,6 +14,7 @@ import Contacts from '../Contacts';
 import Controls from '../Controls';
 import Button from '../Button';
 import Icon from '../Icon';
+import Title from '../Title';
 
 const contacts = [{
   id: 1,
@@ -77,11 +78,9 @@ const contacts = [{
 
 function ContactList({className}) {
   const ContactListButton = ({className, icon, title}) => (
-    <Button
-      className={cn("button_size_small button_theme_blue", {[className]: !!className})}
-    >
+    <Button className={cn("button_theme_blue", {[className]: !!className})}>
       <Icon className="icon_size_20 button__icon" src={icon} />
-      {title}
+      <Title className="title_size_10px button__title" src={title}/>
     </Button>
   );
 

@@ -9,10 +9,10 @@
     background-color: #3399CC;
 }
 
-.button_size_small {
-    font-size: 10px;
+.button__icon {
 }
 
-.button__icon {
+.button__title {
+    margin-left: 8px;
     margin-right: 8px;
 }
