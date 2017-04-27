@@ -1,3 +1,15 @@
 .contact {
+    display: flex;
+    align-items: center;
+}
 
+.contact__avatar {
+}
+
+.contact__name {
+    margin-right: auto;
+    margin-left: 8px;
+}
+
+.contact__info {
 }
