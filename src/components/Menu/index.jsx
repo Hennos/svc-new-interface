@@ -5,7 +5,7 @@ import './index.css';
 
 function Menu({className, children}) {
   return (
-    <div className={cn("menu", {[className]: className})}>
+    <div className={cn("menu", {[className]: !!className})}>
       {children}
     </div>
   )

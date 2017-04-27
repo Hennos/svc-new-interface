@@ -5,7 +5,7 @@
     align-items: center;
 }
 .navigation_underlined {
-    border-bottom: 1px solid #3399CC;
+    box-shadow: 0 1px 1px 0 #3399CC;
 }
 .navigation__title {
     margin-left: 10px;
@@ -13,4 +13,5 @@
 }
 .navigation__menu {
     margin-left: 10px;
+    margin-right: 10px;
 }

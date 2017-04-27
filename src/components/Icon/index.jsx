@@ -6,7 +6,7 @@ import './index.css';
 function Icon({className, src}) {
   return (
     <img
-      className={cn("icon", {[className]: className})}
+      className={cn("icon", {[className]: !!className})}
       src={src} alt={"None"}
     />
   )

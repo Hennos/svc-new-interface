@@ -1,9 +1,17 @@
 import React from 'react';
+import cn from 'classnames';
 
-function Contact() {
+import './index.css';
+
+import Image from '../Image';
+
+function Contact({className, data}) {
   return (
-    <div className="">
-
+    <div className={cn("contact", {[className]: !!className})}>
+      <Image
+        className="image_rounded"
+        src={data.image}
+      />
     </div>
   )
 }

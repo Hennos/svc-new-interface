@@ -1,0 +1,16 @@
+.contact-list {
+    font-family: "Myriad Pro", Arial, serif;
+}
+
+.contact-list_lined_right {
+    border-right: 1px solid #3399CC;
+}
+
+.contact-list__contact {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact-list__contact_underlined {
+    border-bottom: 1px solid #CCCCCC;
+}

@@ -1,0 +1,15 @@
+.input {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.input_theme_blue {
+    color: white;
+    border: none;
+    background-color: #3399CC;
+}
+
+.input_theme_blue:focus {
+    border: none;
+    outline: none;
+}
