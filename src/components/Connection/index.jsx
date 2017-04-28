@@ -5,13 +5,11 @@ import './index.css';
 
 import ConnectionInfo from '../ConnectionInfo';
 
-function Connection({className, name, ...props}) {
+function Connection({className, name, image, data}) {
   return (
     <div className={cn("connection", {[className]: className})}>
-      <img  className="connection__image" src={props.image} alt="None" />
-      <ConnectionInfo className="connection__info connection__info_theme_blue" name={name}>
-
-      </ConnectionInfo>
+      <img  className="connection__image" src={image} alt="None" />
+      <ConnectionInfo className="connection__info connection__info_theme_blue" name={name} data={data}/>
     </div>
   )
 }

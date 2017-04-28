@@ -20,11 +20,21 @@ import Icon from '../Icon';
 const connections = [{
   id: 1,
   image: annaImage,
-  name: "Анна"
+  name: "Анна",
+  data: {
+    state: ["Трезв", "Бодроствует", "Не напряжен"],
+    emotions: ["Спокоен", "Радостен"],
+    truth: true
+  }
 }, {
   id: 2,
   image: maksimImage,
-  name: "Максим"
+  name: "Максим",
+  data: {
+    state: ["Трезв", "Бодроствует", "Не напряжен"],
+    emotions: ["Спокоен", "Радостен"],
+    truth: false
+  }
 }];
 
 function ConferenceArea({className}) {

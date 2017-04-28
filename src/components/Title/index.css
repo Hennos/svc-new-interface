@@ -20,10 +20,18 @@
     font-size: 12px;
 }
 
+.title_size_14px {
+    font-size: 14px;
+}
+
 .title_size_16px {
     font-size: 16px;
 }
 
 .title_size_20px {
     font-size: 20px;
+}
+
+.title_color_black {
+    color: black;
 }

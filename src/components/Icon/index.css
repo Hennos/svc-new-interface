@@ -1,6 +1,11 @@
 .icon {
 }
 
+.icon_size_16 {
+    height: 16px;
+    width: 16px;
+}
+
 .icon_size_20 {
     height: 20px;
     width: 20px;

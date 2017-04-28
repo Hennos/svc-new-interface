@@ -3,8 +3,15 @@
     flex-direction: column;
     justify-content: center;
     min-height: 18px;
+    font-family: "Myriad Pro", Arial, serif;
 }
 
 .connection-info__name {
     margin-left: 8px;
+    margin-right: 8px;
+}
+
+.connection-info__content {
+    margin-left: 8px;
+    margin-right: 8px;
 }
