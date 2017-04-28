@@ -1,0 +1,15 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item__icon {
+    padding-right: 5px;
+}
+
+.menu-item__title {
+}
+
+.menu-item_theme_blue {
+    color: #3399CC;
+}

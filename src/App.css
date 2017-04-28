@@ -1,24 +1,20 @@
 .App {
-  text-align: center;
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) 4fr;
+    grid-template-rows: 50px calc(100vh - 50px);
+    grid-template-areas:
+            "nav nav nav nav"
+            "sidebar section section section";
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App__navigation {
+    grid-area: nav;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.App__contact-list {
+    grid-area: sidebar;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.App__conference-area {
+    grid-area: section;
 }

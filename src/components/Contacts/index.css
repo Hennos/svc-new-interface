@@ -1,0 +1,13 @@
+.contacts {
+
+}
+
+.contacts__contact {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.contacts__contact_underlined {
+    border-bottom: 1px solid #CCCCCC;
+}

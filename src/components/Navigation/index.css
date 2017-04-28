@@ -1,0 +1,18 @@
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation_underlined {
+    box-shadow: 0 1px 1px 0 #3399CC;
+}
+
+.navigation__title {
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.navigation__menu {
+    margin-left: 10px;
+    margin-right: 10px;
+}

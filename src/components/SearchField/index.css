@@ -1,0 +1,22 @@
+.search-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-family: Arial, serif;
+}
+
+.search-field_theme_blue {
+    color: white;
+    background-color: #3399CC;
+}
+
+.search-field_font-size_10px {
+    font-size: 10px;
+}
+
+.search-field__string {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}

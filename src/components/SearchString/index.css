@@ -1,0 +1,23 @@
+.search-string {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-string_lined_bottom {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.search-string_theme_blue {
+    border-bottom-color: white;
+}
+
+.search-string__icon {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.search-string__input {
+    width: 100%;
+}

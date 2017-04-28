@@ -1,0 +1,8 @@
+.menu {
+    display: flex;
+}
+
+.menu__element {
+    padding-left: 5px;
+    padding-right: 5px;
+}

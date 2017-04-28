@@ -1,0 +1,15 @@
+.content-item {
+
+}
+
+.content-item__title {
+    margin-bottom: 2px;
+}
+
+.content-item__body {
+    padding-left: 8px;
+}
+
+.content-item__body_size_small {
+    font-size: 12px;
+}

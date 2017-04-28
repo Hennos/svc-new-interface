@@ -1,0 +1,12 @@
+.image {
+}
+
+.image_size_small {
+    width: 40px;
+    height: 40px;
+}
+
+.image_rounded {
+    border-width: 1px;
+    border-radius: 100%;
+}

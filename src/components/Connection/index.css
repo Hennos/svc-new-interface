@@ -1,0 +1,30 @@
+.connection {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.connection_theme_blue {
+    background-color: rgba(51, 153, 204, 0.7);
+}
+
+.connection__image {
+}
+
+.connection__info {
+    position: relative;
+    top: -18px;
+}
+
+.connection__info_theme_blue {
+    color: white;
+    background-color: rgba(51, 153, 204, 0.7);
+}
+
+.connection__info_size_12px {
+    font-size: 12px;
+}
+
+.connection__about {
+    width: 100%;
+}
