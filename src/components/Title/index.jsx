@@ -3,10 +3,10 @@ import cn from 'classnames';
 
 import './index.css';
 
-function Title({className, src}) {
+function Title({className, children}) {
   return (
     <div className={cn("title", {[className]: className})}>
-      {src}
+      {children}
     </div>
   )
 }

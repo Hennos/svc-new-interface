@@ -1,0 +1,10 @@
+.connection-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 18px;
+}
+
+.connection-info__name {
+    margin-left: 8px;
+}

@@ -13,7 +13,9 @@ import SimpleButton from '../SimpleButton';
 function CallNotice({className}) {
   return (
     <div className={cn("call-notice", {[className]: !!className})}>
-      <Title className="title_size_16px call-notice__title" src="Вас вызывает Даниил"/>
+      <Title className="title_size_16px call-notice__title">
+        Вас вызывает Даниил
+      </Title>
       <Controls className="call-notice__controls">
         <SimpleButton className="controls__button controls__button_fat" icon={agree} />
         <SimpleButton className="controls__button controls__button_fat" icon={disagree} />

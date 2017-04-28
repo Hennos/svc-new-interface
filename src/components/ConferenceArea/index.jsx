@@ -32,7 +32,7 @@ function ConferenceArea({className}) {
     <section className={cn("conference-area", {[className]: !!className})}>
       <CallNotice className="call-notice_lined_bottom conference-area__call-notice" />
       <Conference className="conference-area__conference" connections={connections} />
-      <Controls className="conference-area__controls">
+      <Controls className="conference-area__controls conference-area__controls_size_content">
         <Button className="controls__button controls__button_fat">
           <Icon className="icon_size_40 button__icon" src={volumeIcon}/>
         </Button>

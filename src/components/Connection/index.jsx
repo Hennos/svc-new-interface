@@ -3,19 +3,16 @@ import cn from 'classnames';
 
 import './index.css';
 
-import About from '../About';
+import ConnectionInfo from '../ConnectionInfo';
 
-function Connection({className, ...props}) {
+function Connection({className, name, ...props}) {
   return (
-    <figure className={cn("connection", {[className]: className})}>
-      <img src={props.image} alt="None" />
-      <figcaption className="connection__name connection__name_theme_blue connection__name_size_10px">
-        {props.name}
-      </figcaption>
-      <About className="">
+    <div className={cn("connection", {[className]: className})}>
+      <img  className="connection__image" src={props.image} alt="None" />
+      <ConnectionInfo className="connection__info connection__info_theme_blue" name={name}>
 
-      </About>
-    </figure>
+      </ConnectionInfo>
+    </div>
   )
 }
 

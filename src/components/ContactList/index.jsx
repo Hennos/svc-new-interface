@@ -80,7 +80,7 @@ function ContactList({className}) {
   const ContactListButton = ({className, icon, title}) => (
     <Button className={cn("button_theme_blue", {[className]: !!className})}>
       <Icon className="icon_size_20 button__icon" src={icon} />
-      <Title className="title_size_10px button__title" src={title}/>
+      <Title className="title_size_10px button__title">{title}</Title>
     </Button>
   );
 

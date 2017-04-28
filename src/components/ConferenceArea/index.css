@@ -1,21 +1,31 @@
 .conference-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, [col] 1fr);
+    grid-template-rows:
+            [hotice-row] 50px
+            [conference-row] 1fr
+            [controls-row] 50px [row-end];
+    grid-gap: 10px;
 }
 
 .conference-area__call-notice {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    grid-column: col 2;
+    grid-row: hotice-row;
 }
 
 .conference-area__conference {
-    flex-grow: 1;
+    grid-column: col / col-end;
+    grid-row: conference-row;
 }
 
 .conference-area__controls {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    grid-column: col 2;
+    grid-row: controls-row;
+    justify-self: center;
+}
+
+.conference-area__controls_size_content {
+    width: min-content;
 }
 
 .conference-area__me {

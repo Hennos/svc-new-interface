@@ -13,10 +13,9 @@ import MenuItem from '../MenuItem';
 function Navigation({className}) {
   return (
     <nav className={cn("navigation", {[className]: !!className})}>
-      <Title
-        className="title_italic title_size_20px navigation__title"
-        src="Несколько более честная видеоконференцсвязь"
-      />
+      <Title className="title_italic title_size_20px navigation__title" >
+        Несколько более честная видеоконференцсвязь
+      </Title>
       <Menu className="navigation__menu">
         <MenuItem
           className="menu-item_theme_blue menu__element"

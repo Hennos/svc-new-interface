@@ -12,7 +12,7 @@ function Conference({className, connections}) {
         return (
           <Connection
             key={connection.id}
-            className="connection_theme_blue conference__connection"
+            className="conference__connection"
             {...connection}
           />
         )

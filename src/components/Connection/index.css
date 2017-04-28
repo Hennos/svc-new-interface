@@ -1,27 +1,26 @@
 .connection {
-    max-height: 350px;
+    display: flex;
+    flex-direction: column;
 }
 
 .connection_theme_blue {
-    background-color: #35b6cc;
+    background-color: rgba(51, 153, 204, 0.7);
 }
 
-.connection__name {
-    display: flex;
-    align-items: center;
+.connection__image {
+}
+
+.connection__info {
     position: relative;
-    top: -19px;
+    top: -18px;
 }
 
-.connection__name_theme_blue {
-    padding-right: 5px;
-    padding-left: 5px;
-    opacity: 0.8;
+.connection__info_theme_blue {
     color: white;
-    background-color: #3399CC;
+    background-color: rgba(51, 153, 204, 0.7);
 }
 
-.connection__name_size_12px {
+.connection__info_size_12px {
     font-size: 12px;
 }
 

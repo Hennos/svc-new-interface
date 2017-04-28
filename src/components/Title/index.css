@@ -1,4 +1,6 @@
 .title {
+    display: flex;
+    align-items: center;
     font-family: Arial, serif;
 }
 
@@ -12,6 +14,10 @@
 
 .title_size_10px {
     font-size: 10px;
+}
+
+.title_size_12px {
+    font-size: 12px;
 }
 
 .title_size_16px {
