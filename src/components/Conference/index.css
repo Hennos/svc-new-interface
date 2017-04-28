@@ -1,0 +1,8 @@
+.conference {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conference__connection {
+    margin: 15px;
+}

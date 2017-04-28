@@ -1,18 +1,25 @@
 .conference-area {
-    display: grid;
-    grid-template-rows: 50px 1fr 50px;
-    grid-template-areas: "notice" "conference" "controls";
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .conference-area__call-notice {
-    grid-area: notice;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .conference-area__conference {
-    grid-area: conference;
+    flex-grow: 1;
 }
 
 .conference-area__controls {
-    grid-area: controls;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conference-area__me {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }

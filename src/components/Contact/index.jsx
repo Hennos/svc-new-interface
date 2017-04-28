@@ -12,7 +12,7 @@ import About from '../About';
 function Contact({className, data, focused}) {
   return (
     <div className={cn("contact", {[className]: !!className})}>
-      <Image className="image_rounded contact__avatar" src={data.image || noneAvatar} />
+      <Image className="image_size_small image_rounded contact__avatar" src={data.image || noneAvatar} />
       <Name className="name_size_default contact__name" name={data.name}>
         <About className="about_size_small">{data.age}</About>
       </Name>
